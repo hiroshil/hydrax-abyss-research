@@ -19,19 +19,19 @@ Not all websites use the same links so you'll have to adapt to that. Hope this h
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/2a1f9464-bd91-452a-a868-d4ac407e253a)
 
-- Or use an [extension](https://chromewebstore.google.com/detail/absolute-enable-right-cli/jdocbkpgdakpekjlhemmfcncgdjeiika)
+- Or use an [extension](https://chromewebstore.google.com/detail/absolute-enable-right-cli/jdocbkpgdakpekjlhemmfcncgdjeiika) to be able to press f12
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/1f8eddd0-c20a-4188-87d1-4ede5ad74090)
 
-### Anti-debug bypass
-
-- If a website has anti-debug, turn this on to bypass it and reload
-
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/1ad57d58-6fd8-41c8-9736-6ee7060d16d5)
-
 ### Find cdn ID
 
-- Click the Doc filter to find cdn ID URL. Use filter `?v=`
+- After you opened the dev tools and the debugger is paused, close the dev tools and it will remove the video and show the ID
+
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/043480cf-4901-46fe-9afb-e02e671863e2)
+
+### Or
+
+- Click the Doc filter to find cdn ID URL. Use filter `?v=` and refresh the page
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/160b0a0c-7b7b-4f48-b6c4-0a2dd3405d1b)
 
