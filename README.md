@@ -41,6 +41,8 @@ Not all websites use the same links so you'll have to adapt to that. Hope this h
 
 # Download
 
+Here's an example Python code
+
 ```Python
 from base64 import b64decode
 from os.path import isfile
