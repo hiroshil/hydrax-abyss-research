@@ -63,7 +63,7 @@ error = []
 for cdn_ID in cdn_ID_list:
     try:
         if isfile(f"./{cdn_ID}.mp4"):
-            print(f"{cdn_ID}.mp4 already exists")
+            print(f"\n{cdn_ID}.mp4 already exists")
         else:
             domain, vid_id, sources = [
                 loads(
@@ -100,6 +100,8 @@ Please wait...
 
 for i in error:
     print(f"Error downloading: {i}")
+
+input("\nPress Enter to exit\n")
 ```
 
 # Old method
