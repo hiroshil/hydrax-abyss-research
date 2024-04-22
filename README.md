@@ -1,5 +1,7 @@
 # [I launched a Github page for the script!](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper-Python)
 
+# [And a Userscript ](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper)
+
 # New method
 
 # Guide
