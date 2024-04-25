@@ -2,13 +2,11 @@
 
 # [And a Userscript to get Vid_ID (Recommended)](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper)
 
+# Use links above. Below is just info
+
 # New method
 
 # Guide
-
-## Install requirements.txt
-
-`pip install -r requirements.txt`
 
 Not all websites use the same links so you'll have to adapt to that. Hope this helps!
 
