@@ -1,6 +1,6 @@
 # [I launched a Github page for the downloader](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper-Python)
 
-# [And a Userscript ](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper)
+# [And a Userscript to get Vid_ID (Recommended)](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper)
 
 # New method
 
