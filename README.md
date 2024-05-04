@@ -37,7 +37,7 @@ Not all websites use the same links so you'll have to adapt to that. Hope this h
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/160b0a0c-7b7b-4f48-b6c4-0a2dd3405d1b)
 
-- Get cdn ID. `VswFqVUmq`. ID should be 9 characters
+- Get cdn ID. `VswFqVUmq`
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/a63f88d6-4e6f-4237-bfe0-1692d1a3d315)
 
