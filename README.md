@@ -1,10 +1,6 @@
-# [I launched a Github page for the downloader](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper-Python)
+# [Python downloader](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper-Python)
 
-# [And a Userscript (Recommended)](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper)
-
-# Use links above. Below is just info
-
-# New method
+# [Userscript downloader](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper-Userscript)
 
 # Guide
 
