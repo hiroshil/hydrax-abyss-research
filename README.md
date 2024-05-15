@@ -19,7 +19,7 @@ Not all websites use the same links so you'll have to adapt to that
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/2a1f9464-bd91-452a-a868-d4ac407e253a)
 
-### Find Vid_ID
+### Find Vid_ID for use with [Python downloader](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper-Python)
 
 - After you opened the dev tools and the debugger is paused, close the dev tools and it will remove the video and show the ID
 
@@ -33,11 +33,21 @@ Not all websites use the same links so you'll have to adapt to that
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/a63f88d6-4e6f-4237-bfe0-1692d1a3d315)
 
+### For downloading
+
+- Go to sources tab and find `?v=VswFqVUmq`. Decode the Base64 to get the info
+
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/c23492cf-affe-466e-b7cb-d2d4a877b719)
+
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/25a8cd5a-63ba-4d31-bd0a-e20e3d973a08)
+
+- Combine the the "domain" and "id" as a link. And use `https://abysscdn.com/?v=VswFqVUmq` url as the Referer to download. See [Download](#download) section below for an example
+
 # Old method
 
-# [Use modified .js](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/blob/master/Recommended.%20Download%20zip.md)
+## [Use modified .js](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/blob/master/Recommended.%20Download%20zip.md)
 
-# [How to create modified .js scripts](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/blob/master/How%20to%20create%20modified%20.js%20scripts.md)
+## [How to create modified .js scripts](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/blob/master/How%20to%20create%20modified%20.js%20scripts.md)
 
 ### Anti-debug bypass
 
@@ -93,9 +103,9 @@ from requests import get
 
 headers = {"Referer": "https://abysscdn.com"}
 
-url_360p = "https://sfbhnfiy1.globalcdn39.one/ce0f5de002c90461a9"
-response = get(url_360p, headers=headers, stream=True)
-with open("video_360p.mp4", "wb") as f:
+url_360p_480p = "https://sfbhnfiy1.globalcdn39.one/ce0f5de002c90461a9"
+response = get(url_360p_480p, headers=headers, stream=True)
+with open("video_360p_480p.mp4", "wb") as f:
     for chunk in response.iter_content(chunk_size=64 * 1024):
         f.write(chunk)
 
