@@ -4,14 +4,14 @@
 
 # Guide
 
-Not all websites use the same links so you'll have to adapt to that
+Not all websites use the same links, so you'll have to adapt to that
 
 - Test: https://gojo2.xyz/asre-zero-224-pised/
 - Password: nade
 
 ### Dev tools blocking bypass
 
-- Click on the url and press F12
+- Click on the URL and press F12
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/6b79adcb-d93e-45ce-a131-38c6e6001a9b)
 
@@ -21,11 +21,11 @@ Not all websites use the same links so you'll have to adapt to that
 
 ### Find Vid_ID for use with [Python downloader](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper-Python)
 
-- After you opened the dev tools and the debugger is paused, close the dev tools and it will remove the video and show the ID
+- After you open the dev tools, and the debugger is paused, close the dev tools and it will remove the video and show the ID
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/043480cf-4901-46fe-9afb-e02e671863e2)
 
-- Or Click the Doc filter to find Vid_ID URL. Use filter `?v=` and refresh the page
+- Or click the Doc filter to find Vid_ID URL. Use filter `?v=` and refresh the page
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/160b0a0c-7b7b-4f48-b6c4-0a2dd3405d1b)
 
@@ -35,13 +35,13 @@ Not all websites use the same links so you'll have to adapt to that
 
 ### For downloading
 
-- Go to sources tab and find `?v=VswFqVUmq`. Decode the Base64 to get the info
+- Go to the sources tab and find `?v=VswFqVUmq`. Decode the Base64 to get the info
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/c23492cf-affe-466e-b7cb-d2d4a877b719)
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/25a8cd5a-63ba-4d31-bd0a-e20e3d973a08)
 
-- Combine the the "domain" and "id" as a link. And use `https://abysscdn.com/?v=VswFqVUmq` url as the Referer to download. See [Download](#download) section below for an example
+- Combine the "domain" and "id" as a link. And use the URL `https://abysscdn.com/?v=VswFqVUmq` as the Referer to download. See [Download](#download) section below for an example
 
 # Old method
 
@@ -51,13 +51,13 @@ Not all websites use the same links so you'll have to adapt to that
 
 ### Anti-debug bypass
 
-- If a website has anti-debug, click this on to bypass it and reload. Might not work on Firefox
+- If a website has anti-debug, click this to bypass it and reload. This might not work on Firefox
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/1ad57d58-6fd8-41c8-9736-6ee7060d16d5)
 
 ### Find video file name
 
-- Go to network tab and click the Media filter to find the video file name. It should look like this `ce0f5de002c90461a9`. Do not copy `.txt`
+- Go to the network tab and click the Media filter to find the video file name. It should look like this `ce0f5de002c90461a9`. Do not copy `.txt`
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/8847ebab-0239-493e-a6c4-6fa972e478fd)
 
@@ -75,8 +75,8 @@ Not all websites use the same links so you'll have to adapt to that
 
 ### If you are NOT using the modified scripts
 
-- Click the Websocket filter to find the videocdn URL. You might have to wait for the connection to expire, the site will reconnect and the URL will show up here
-- Another way is to disconnect/reconnect internet connection
+- Click the Websocket filter to find the videocdn URL. You might have to wait for the connection to expire. The site will reconnect, and the URL will show up here
+- Another way is to disconnect/reconnect the internet connection
 - It should look like this `sfbhnfiy1.globalcdn39.one`. Do not copy `wss://`. Replace it with `https://`
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/ab6c94c9-3d22-43b2-8291-73b3d6497879)
