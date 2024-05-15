@@ -4,8 +4,6 @@
 
 # Guide
 
-Not all websites use the same links, so you'll have to adapt to that
-
 - Test: https://gojo2.xyz/asre-zero-224-pised/
 - Password: nade
 
