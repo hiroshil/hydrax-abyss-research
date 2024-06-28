@@ -39,7 +39,28 @@
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/25a8cd5a-63ba-4d31-bd0a-e20e3d973a08)
 
-- Combine the "domain" and "id" as a link. And use the URL `https://abysscdn.com/?v=VswFqVUmq` as the Referer to download. See [Download](#download) section below for an example
+- See [Download](#download) section below for an example URL
+
+### Download from browser
+
+- Use extensions like [Requestly](https://requestly.com/) to modify the headers and modify like below. Visit the link to download
+
+- Request header
+
+```
+Referer : https://abysscdn.com/
+Sec-Fetch-Mode : cors
+```
+
+- Response header
+
+```
+Content-Disposition : attachment
+```
+
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/8441179c-28e5-4ba7-b38a-c68093799440)
+
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/c97b6b34-212f-4348-b70f-c8a780de1925)
 
 # Old method
 
