@@ -24,6 +24,10 @@
 
 - It should look like this `.constructor("")(),`
 
+- Search for this `if (console) {` and remove the whole if statement
+
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/bc6258a6-f11f-4539-b2d8-28a4f042f1ed)
+
 - Search for this `function removeJwp() {` and remove the whole function
 
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/539c9066-3e82-47be-83f9-c4efda70abfe)
