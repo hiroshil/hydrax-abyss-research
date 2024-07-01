@@ -2,34 +2,28 @@
 
 ## bundle.min.js
 
-- Go to Dev tools > Network. Click on WS filter then click on bundle.min.js
+- Go to sources
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/87f76b13-d90a-4314-836b-cef6ebb07549)
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/57c43dd9-2186-486e-aea4-d18d221074c7)
 
-- Right click then click on Override content
-
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/cf23b53a-044a-4c87-921d-9896dc985501)
-
-- It will ask you to select folder, use any folder. Click Allow
+- Right click and save as. Open the file
 
 - Search for this `new WebSocket(e.url_tunnel`
-- Add this after `console.warn("Copy this as videocdn URL:"+e.url);` and Ctrl+S to save
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/42403876-227b-4ad1-acbf-1e9d471674d0)
+- Add this after `console.warn("Copy this as videocdn URL:"+e.url);`
+
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/9f9f9096-d610-4286-82d7-8014a9dfedb2)
 
 ## playhydrax.min.js
 
-- Find playhydrax.min.js
+- Same as before
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/f12cb407-9672-4ce2-b947-c89eb75367af)
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/676f6277-2df8-47ab-baad-88994a7bf42d)
 
-- Similar as before
-- Right click then click on Override content
-- Search for `name:"debugger-checker"`
-- Delete isOpen until isEnable
+- Search for this `.constructor("debugger")(),` and remove `debugger`
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/2953cd81-c8de-4d2e-8ce4-b81c35240269)
+- It should look like this `.constructor("")(),`
 
-- It should look like this, Ctrl+S to save
+- Search for this `function removeJwp() {` and remove the whole function
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/0d124e37-9333-4b39-b18d-c17c8766181c)
+![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/539c9066-3e82-47be-83f9-c4efda70abfe)
