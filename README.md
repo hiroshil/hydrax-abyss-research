@@ -4,8 +4,7 @@
 
 # Guide
 
-- Test: https://gojo2.xyz/asre-zero-224-pised/
-- Password: nade
+- Test: [Abyss.to](https://abyss.to/)
 
 ### Dev tools blocking bypass
 
@@ -21,23 +20,23 @@
 
 - After you open the dev tools, and the debugger is paused, close the dev tools and it will remove the video and show the ID
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/043480cf-4901-46fe-9afb-e02e671863e2)
+![image](https://github.com/user-attachments/assets/38417ab3-2e12-4c7d-9af4-5b6cb6072f1c)
 
 - Or click the Doc filter to find Vid_ID URL. Use filter `?v=` and refresh the page
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/160b0a0c-7b7b-4f48-b6c4-0a2dd3405d1b)
+![image](https://github.com/user-attachments/assets/a08dd452-6d75-4ec9-8a4a-d350c6e0bd1c)
 
-- Get Vid_ID. `VswFqVUmq`
+- Get Vid_ID. `K8R6OOjS7`
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/a63f88d6-4e6f-4237-bfe0-1692d1a3d315)
+![image](https://github.com/user-attachments/assets/22815265-681c-4f9d-b811-367b4428cfa4)
 
 ### For downloading
 
-- Go to the sources tab and find `?v=VswFqVUmq`. Decode the Base64 to get the info
+- Go to the sources tab and find `?v=K8R6OOjS7`. Decode the Base64 to get the info
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/c23492cf-affe-466e-b7cb-d2d4a877b719)
+![image](https://github.com/user-attachments/assets/3c2d4e6c-7954-45b3-bcd4-7dd8ebd67d7f)
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/25a8cd5a-63ba-4d31-bd0a-e20e3d973a08)
+![image](https://github.com/user-attachments/assets/be43ec90-dbbe-4656-9538-062fc0863d94)
 
 - See [Download](#download) section below for an example URL
 
@@ -45,7 +44,7 @@
 
 - Use extensions like [Requestly](https://requestly.com/) to modify the headers and modify like below. Visit the link to download
 
-- Request header
+- Modify request with links including `.trycloudflare.com`
 
 ```
 Referer : https://abysscdn.com/
@@ -76,9 +75,9 @@ Content-Disposition : attachment
 
 ### Find video file name
 
-- Go to the network tab and click the Media filter to find the video file name. It should look like this `ce0f5de002c90461a9`. Do not copy `.txt`
+- Go to the network tab and click the Media filter to find the video file name. It should look like this `d34478903cd03b5fef`. Do not copy `.txt`
 
-![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/8847ebab-0239-493e-a6c4-6fa972e478fd)
+![image](https://github.com/user-attachments/assets/ea71c4ca-9c3d-4be4-8980-c9a051690889)
 
 ### Find Vid_ID URL
 
@@ -107,13 +106,13 @@ Looking at the [bundle.min.js](https://iamcdn.net/players/bundle.min.js). It sho
 ![image](https://github.com/PatrickL546/How-to-download-hydrax-abyss.to/assets/75874561/d74e1668-e56b-4c3b-b44d-e12489093a5c)
 
 - The video file name without any prefix used in the URL is 360p, `www` prefix is 720p, `whw` prefix is 1080p
-- `ce0f5de002c90461a9` is 360p
-- `www`+`ce0f5de002c90461a9` is 720p
-- `whw`+`ce0f5de002c90461a9` is 1080p
+- `d34478903cd03b5fef` is 360p
+- `www`+`d34478903cd03b5fef` is 720p
+- `whw`+`d34478903cd03b5fef` is 1080p
 
 # Download
 
-- Combine the video cdn `https://sfbhnfiy1.globalcdn39.one/` with the prefix + video file name `whw`+`ce0f5de002c90461a9` = `https://sfbhnfiy1.globalcdn39.one/whwce0f5de002c90461a9`
+- Combine the video cdn `https://sfbhnfiy1.globalcdn39.one/` with the prefix + video file name `whw`+`d34478903cd03b5fef` = `https://sfbhnfiy1.globalcdn39.one/whwd34478903cd03b5fef`
 
 Here's an example Python code that downloads each video source
 
@@ -122,19 +121,19 @@ from requests import get
 
 headers = {"Referer": "https://abysscdn.com"}
 
-url_360p_480p = "https://sfbhnfiy1.globalcdn39.one/ce0f5de002c90461a9"
+url_360p_480p = "https://sfbhnfiy1.globalcdn39.one/d34478903cd03b5fef"
 response = get(url_360p_480p, headers=headers, stream=True)
 with open("video_360p_480p.mp4", "wb") as f:
     for chunk in response.iter_content(chunk_size=64 * 1024):
         f.write(chunk)
 
-url_720p = "https://sfbhnfiy1.globalcdn39.one/wwwce0f5de002c90461a9"
+url_720p = "https://sfbhnfiy1.globalcdn39.one/wwwd34478903cd03b5fef"
 response = get(url_720p, headers=headers, stream=True)
 with open("video_720p.mp4", "wb") as f:
     for chunk in response.iter_content(chunk_size=64 * 1024):
         f.write(chunk)
 
-url_1080p = "https://sfbhnfiy1.globalcdn39.one/whwce0f5de002c90461a9"
+url_1080p = "https://sfbhnfiy1.globalcdn39.one/whwd34478903cd03b5fef"
 response = get(url_1080p, headers=headers, stream=True)
 with open("video_1080p.mp4", "wb") as f:
     for chunk in response.iter_content(chunk_size=64 * 1024):
