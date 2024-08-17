@@ -3,7 +3,7 @@
 # [Userscript downloader](https://github.com/PatrickL546/Hydrax-Abyss.to-DownloadHelper-Userscript)
 
 > [!WARNING]  
-> Outdated and broken due to new update
+> Might be outdated and broken due to new update
 
 > [!NOTE]  
 > Still need to figure out how to download 1440p and 2160p videos
